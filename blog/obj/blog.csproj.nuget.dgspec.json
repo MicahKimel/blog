@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/micahkimel/Desktop/Blog/blog/blog.csproj": {}
+    "/Users/micahkimel/Desktop/travelBlob/blog/blog.csproj": {}
   },
   "projects": {
-    "/Users/micahkimel/Desktop/Blog/blog/blog.csproj": {
+    "/Users/micahkimel/Desktop/travelBlob/blog/blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/micahkimel/Desktop/Blog/blog/blog.csproj",
+        "projectUniqueName": "/Users/micahkimel/Desktop/travelBlob/blog/blog.csproj",
         "projectName": "blog",
-        "projectPath": "/Users/micahkimel/Desktop/Blog/blog/blog.csproj",
+        "projectPath": "/Users/micahkimel/Desktop/travelBlob/blog/blog.csproj",
         "packagesPath": "/Users/micahkimel/.nuget/packages/",
-        "outputPath": "/Users/micahkimel/Desktop/Blog/blog/obj/",
+        "outputPath": "/Users/micahkimel/Desktop/travelBlob/blog/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/micahkimel/.nuget/NuGet/NuGet.Config"

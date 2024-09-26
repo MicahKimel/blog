@@ -18,8 +18,15 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Blog()
+    public IActionResult Packages()
     {
+        return View();
+    }
+
+    public IActionResult Inquiry()
+    {
+        ViewData["Name"] = "Kullu";
+        ViewData["Description"] = "Kullu";
         return View();
     }
 

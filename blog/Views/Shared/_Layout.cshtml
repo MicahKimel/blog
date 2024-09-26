@@ -4,18 +4,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - blog</title>
+    <title>@ViewData["Title"] - My place tour and travel</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/blog.styles.css" asp-append-version="true" />
 </head>
 
 <body>
-    <header style="background-color: rgb(123, 209, 255);">
+    <header style="background-color: rgb(181, 118, 60);">
         <div class="container">
             <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light mb-3"
-                style="background-color: rgb(123, 209, 255);">
-                <div class="container-fluid" style="background-color: rgb(123, 209, 255);">
+                style="background-color: rgb(181, 118, 60);">
+                <div class="container-fluid" style="background-color: rgb(181, 118, 60);">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -29,14 +29,18 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" style="color: rgb(96, 96, 96)" asp-area="" asp-controller="Home"
-                                    asp-action="Blog">Blog</a>
+                                    asp-action="Packages">Packages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: rgb(96, 96, 96)" asp-area="" asp-controller="Home"
+                                    asp-action="Inquiry">Inquiry</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="hstack gap-3">
-                <h1 style="color: rgb(57, 76, 77)">Micah Kimel</h1>
+                <h1 style="color: rgb(57, 76, 77)">My Place Tour And Travel</h1>
             </div>
         </div>
     </header>
@@ -48,7 +52,7 @@
 
     <footer class="border-top footer text-muted" style="color: white;">
         <div class="container" style="color: white;">
-            &copy; 2024 - blog - <a asp-area="" asp-controller="Home" asp-action="Blog">Blog</a>
+            &copy; 2024 - My Place Tour and Travel
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

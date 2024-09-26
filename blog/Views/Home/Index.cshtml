@@ -3,42 +3,48 @@
 }
 
 <body>
+    <br />
     <div class="container">
         <div class="center">
             <div class="page-content">
                 <div class="container">
                     <div class="padding-top vstack gap-3">
-                        <p></p>
-                        <p style="color: white;">
-                            Software Developer since 2020.
-                        </p>
-                        <p style="color: white;">
-                            Currently I work as a swift mobile development and C# backend development.
-                            I created this blog to organize what projects I am currently working on.
-                        </p>
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="~/assets/Manali.jpg" style="height: 500px;"
+                                        class=" img-fluid rounded mx-auto d-block w-100" alt="...">
 
-                        <p style="color: white;">
-                            How to reach me:
-                        </p>
-                    </div>
-                    <div class="padding-top vstack gap-3">
-                        <div class="hstack gap-3">
-                            <a style="color: rgb(44, 163, 184);"
-                                href="https://www.linkedin.com/in/micahkimel/">linkedin</a>
-                            <a style="color: rgb(44, 163, 184);" href="https://github.com/MicahKimel">github</a>
-                            <a style="color: rgb(44, 163, 184);"
-                                href="https://stackoverflow.com/users/13569949/micah">stackoverflow</a>
-                        </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="~/assets/kullunight.jpg" style="height: 500px;"
+                                        class=" img-fluid rounded mx-auto d-block w-100" alt="...">
 
-                        <div class="hstack gap-3">
-                            <img src="~/assets/backpacking01.jpeg" style="height: 200px;"
-                                class=" img-fluid rounded mx-auto d-block" alt="backpacking01">
-                            <img src="~/assets/backpacking02.jpg" style="height: 200px;"
-                                class=" img-fluid rounded mx-auto d-block" alt="backpacking02">
-                            <img src="~/assets/backpacking03.jpg" style="height: 200px;"
-                                class=" img-fluid rounded mx-auto d-block" alt="backpacking03">
-                            <img src="~/assets/backpacking04.jpg" style="height: 200px;"
-                                class=" img-fluid rounded mx-auto d-block" alt="backpacking04">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="~/assets/kullu01.jpg" style="height: 500px;"
+                                        class=" img-fluid rounded mx-auto d-block w-100" alt="...">
+
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                 </div>
