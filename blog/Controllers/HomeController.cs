@@ -27,16 +27,8 @@ public class HomeController : Controller
     {
         ViewData["Name"] = "Kullu";
         ViewData["Description"] = "Kullu";
+        ViewData["Posted"] = "False";
         return View();
-    }
-
-    [HttpPost]
-    public IActionResult YourAction(string Name, string Email)
-    {
-        // Process the form data here
-        // ...
-
-        return View("Index"); // Or redirect to another view
     }
 
     [HttpPost]
@@ -44,7 +36,8 @@ public class HomeController : Controller
     {
         // Take the model and email
         Console.WriteLine(FirstName + LastName + Email + Phone + TextArea);
-        return View("Index");
+        ViewData["Posted"] = "True";
+        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

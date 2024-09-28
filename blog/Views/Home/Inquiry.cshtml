@@ -65,6 +65,14 @@
         <br />
         <br />
     </form>
+    @{
+        if (ViewBag.Posted == "True")
+        {
+            <script type="text/javascript">
+                alert("Inquiry Success!");
+            </script>
+        }
+    }
     <script>
         const inputElement = document.getElementById("Phone");
         inputElement.addEventListener("input", () => {
