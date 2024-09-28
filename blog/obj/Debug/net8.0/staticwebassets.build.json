@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I0MAkGfcMXUkYOqb4SULadyQvvsZ3Q9j0pyR+qvcSjw=",
+  "Hash": "xFkbFzSKUsB/awb6w7FYNTNnr3/ODo2bGdhPUZdf6xE=",
   "Source": "blog",
   "BasePath": "_content/blog",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/bulma/bulma.min.css"
+    },
+    {
+      "Identity": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/lib/bulma/global.scss",
+      "SourceId": "blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/",
+      "BasePath": "_content/blog",
+      "RelativePath": "lib/bulma/global.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bulma/global.scss"
     },
     {
       "Identity": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",

@@ -30,6 +30,23 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpPost]
+    public IActionResult YourAction(string Name, string Email)
+    {
+        // Process the form data here
+        // ...
+
+        return View("Index"); // Or redirect to another view
+    }
+
+    [HttpPost]
+    public IActionResult Inquiry(string FirstName, string LastName, string Email, string Phone, string TextArea)
+    {
+        // Take the model and email
+        Console.WriteLine(FirstName + LastName + Email + Phone + TextArea);
+        return View("Index");
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

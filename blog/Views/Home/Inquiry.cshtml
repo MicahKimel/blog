@@ -8,10 +8,10 @@
 
     <p style="color: white">@ViewData["Description"]</p>
 
-    <form class="row g-3 needs-validation" novalidate>
+    <form method="post" class="row g-3 needs-validation" action="/Home/Inquiry" novalidate>
         <div class="col-md-4 position-relative">
-            <label for="validationTooltip01" class="form-label">First name</label>
-            <input type="text" class="form-control" id="validationTooltip01" value="" required>
+            <label for="FirstName" class="form-label">First name</label>
+            <input type="text" class="form-control" id="FirstName" name="FirstName" value="" required>
             <div class="valid-tooltip">
                 Looks good!
             </div>
@@ -20,8 +20,8 @@
             </div>
         </div>
         <div class="col-md-4 position-relative">
-            <label for="validationTooltip02" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="validationTooltip02" value="" required>
+            <label for="LastName" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="LastName" name="LastName" value="" required>
             <div class="valid-tooltip">
                 Looks good!
             </div>
@@ -30,28 +30,63 @@
             </div>
         </div>
         <div class="col-md-4 position-relative">
-            <label for="validationTooltipUsername" class="form-label">Username</label>
+            <label for="Email" class="form-label">Email</label>
             <div class="input-group has-validation">
-                <input type="text" class="form-control" id="validationTooltipUsername"
-                    aria-describedby="validationTooltipUsernamePrepend" required>
+                <input type="email" class="form-control" id="Email" name="Email" aria-describedby="email" required>
                 <div class="invalid-tooltip">
                     Please enter a email.
                 </div>
             </div>
         </div>
         <div data-mdb-input-init class="form-outline mb-3" style="width: 100%; max-width: 22rem">
-            <label for="phonenum">Phone Number (format: xxxx-xxx-xxxx):</label><br />
-            <input id="phonenum" type="tel" pattern="^\d{4}-\d{3}-\d{4}$" required>
-            <label class="form-label" for="phone">Phone number with country code</label>
+            <label for="Phone">Phone Number:</label><br />
+            <input class="form-control" id="Phone" name="Phone" required>
+            <label class="form-label" for="Phone">Phone number with country code</label>
             <div class="invalid-tooltip">
                 Please enter a phone.
             </div>
         </div>
         <div class="col-12">
+            <textarea class="textarea form-control" id="TextArea" name="TextArea" placeholder="10 lines of textarea"
+                rows="10"></textarea>
+        </div>
+        <div class="col-12">
             <button class="btn btn-primary" type="submit">Submit form</button>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </form>
     <script>
+        const inputElement = document.getElementById("Phone");
+        inputElement.addEventListener("input", () => {
+            document.getElementById("Phone").value = (applyPatternOnNumbers(document.getElementById("Phone").value, "(###) (###) (####)", "#"));
+        });
+
+        function applyPatternOnNumbers(input, pattern, replacementCharacter) {
+            var pureNumber = input.replace(/[^0-9]/g, '').slice(0, 10);
+
+            let formattedNumber = '';
+            for (let i = 0; i < pattern.length; i++) {
+                if (pattern[i] !== replacementCharacter) {
+                    pureNumber = insertCharacter(pureNumber, pattern[i], i);
+                }
+            }
+            return pureNumber;
+        }
+
+        function insertCharacter(str, char, index) {
+            return str.slice(0, index) + char + str.slice(index);
+        }
+
         (() => {
             'use strict'
 

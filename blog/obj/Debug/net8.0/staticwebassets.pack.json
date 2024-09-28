@@ -285,6 +285,10 @@
       "PackagePath": "staticwebassets/lib/bulma/bulma.min.css"
     },
     {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/lib/bulma/global.scss",
+      "PackagePath": "staticwebassets/lib/bulma/global.scss"
+    },
+    {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },

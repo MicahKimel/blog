@@ -13,37 +13,52 @@
 
 <body>
     <header style="background-color: rgb(181, 118, 60);">
-        <div class="container">
-            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light mb-3"
-                style="background-color: rgb(181, 118, 60);">
-                <div class="container-fluid" style="background-color: rgb(181, 118, 60);">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                        <ul class="navbar-nav flex-grow-1">
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: rgb(96, 96, 96)" asp-area="" asp-controller="Home"
-                                    asp-action="Index">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: rgb(96, 96, 96)" asp-area="" asp-controller="Home"
-                                    asp-action="Packages">Packages</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: rgb(96, 96, 96)" asp-area="" asp-controller="Home"
-                                    asp-action="Inquiry">Inquiry</a>
-                            </li>
-                        </ul>
+        <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: rgb(181, 118, 60);">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+
+                    <a style="color: rgb(57, 76, 77)" class="navbar-item" asp-area="" asp-controller="Home"
+                        asp-action="Index">Home</a>
+                    <a style="color: rgb(57, 76, 77)" class="navbar-item" asp-area="" asp-controller="Home"
+                        asp-action="Packages">Packages</a>
+                    <a style="color: rgb(57, 76, 77)" class="navbar-item" asp-area="" asp-controller="Home"
+                        asp-action="Inquiry">Inquiry</a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+
+                        <div class="navbar-dropdown">
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Report an issue
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </nav>
-            <div class="hstack gap-3">
-                <h1 style="color: rgb(57, 76, 77)">My Place Tour And Travel</h1>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
