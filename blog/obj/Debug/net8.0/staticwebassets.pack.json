@@ -81,6 +81,14 @@
       "PackagePath": "staticwebassets/assets/kullunight.JPG"
     },
     {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/logo.heic",
+      "PackagePath": "staticwebassets/assets/logo.heic"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/logo.png",
+      "PackagePath": "staticwebassets/assets/logo.png"
+    },
+    {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/river01.PNG",
       "PackagePath": "staticwebassets/assets/river01.PNG"
     },

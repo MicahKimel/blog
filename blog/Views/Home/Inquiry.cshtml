@@ -2,11 +2,11 @@
     ViewData["Title"] = "Inquiry";
 }
 <br />
-<h1 style="color: white">@ViewData["Title"]</h1>
+<h1 class="title is-1 py-1" style="color: white">@ViewData["Title"]</h1>
 
-<h2 style="color: white">@ViewData["Name"]</h1>
+<h2 class="title is-3 py-1" style="color: white">@ViewData["Name"]</h1>
 
-    <p style="color: white">@ViewData["Description"]</p>
+    <p class="pb-1" style="color: white">@ViewData["Description"]</p>
 
     <form method="post" class="row g-3 needs-validation" action="/Home/Inquiry" novalidate>
         <div class="col-md-4 position-relative">
@@ -41,13 +41,29 @@
         <div data-mdb-input-init class="form-outline mb-3" style="width: 100%; max-width: 22rem">
             <label for="Phone">Phone Number:</label><br />
             <input class="form-control" id="Phone" name="Phone" required>
-            <label class="form-label" for="Phone">Phone number with country code</label>
+            <label class="form-label" for="Phone">Phone number</label>
             <div class="invalid-tooltip">
                 Please enter a phone.
             </div>
         </div>
+        <p>Tell us up to three important things to you and your family when you're planning a dream experience in a new
+            place!
+            Are you a foodie who loves to spend time trying every unique dish and delicacy from a new place?
+            Do you love adventuring up and down mountain peaks or rafting down rivers, chasing thrills?
+            Do you value time in restful, peaceful spaces getting to soak in the sounds and colors of an unexplored
+            area?
+            Tell us and our team of locals will dream up a package that will satisfy your hearts and your wallets in the
+            beautiful Himalayas.
+        </p>
         <div class="col-12">
             <textarea class="textarea form-control" id="TextArea" name="TextArea" placeholder="10 lines of textarea"
+                rows="10"></textarea>
+        </div>
+        <p>
+            Inquiry
+        </p>
+        <div class="col-12">
+            <textarea class="textarea form-control" id="Inquiry" name="Inquiry" placeholder="10 lines of textarea"
                 rows="10"></textarea>
         </div>
         <div class="col-12">
