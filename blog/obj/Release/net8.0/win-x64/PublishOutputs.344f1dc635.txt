@@ -1,0 +1,4 @@
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/win-x64/publish/appsettings.Development.json
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/win-x64/publish/appsettings.json
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/win-x64/publish/blog.pdb
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/win-x64/publish/blog.exe

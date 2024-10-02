@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/assets/HamptaPass01.JPG"
     },
     {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/HamptaPass03.jpg",
+      "PackagePath": "staticwebassets/assets/HamptaPass03.jpg"
+    },
+    {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/KasolManikaran.JPG",
       "PackagePath": "staticwebassets/assets/KasolManikaran.JPG"
     },
@@ -57,12 +61,36 @@
       "PackagePath": "staticwebassets/assets/backpacking04.jpg"
     },
     {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/dharamshala03.jpg",
+      "PackagePath": "staticwebassets/assets/dharamshala03.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/dharamshala04.jpg",
+      "PackagePath": "staticwebassets/assets/dharamshala04.jpg"
+    },
+    {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/flyfishing01.webp",
       "PackagePath": "staticwebassets/assets/flyfishing01.webp"
     },
     {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/horse01.JPG",
       "PackagePath": "staticwebassets/assets/horse01.JPG"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kasol05.jpg",
+      "PackagePath": "staticwebassets/assets/kasol05.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kasolmanikaran02.jpg",
+      "PackagePath": "staticwebassets/assets/kasolmanikaran02.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kasolmanikaran03.jpg",
+      "PackagePath": "staticwebassets/assets/kasolmanikaran03.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kasolmanikaran04.jpg",
+      "PackagePath": "staticwebassets/assets/kasolmanikaran04.jpg"
     },
     {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kullo03.PNG",
@@ -77,8 +105,28 @@
       "PackagePath": "staticwebassets/assets/kullu02.JPG"
     },
     {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kullu04.jpg",
+      "PackagePath": "staticwebassets/assets/kullu04.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kullu05.jpg",
+      "PackagePath": "staticwebassets/assets/kullu05.jpg"
+    },
+    {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/kullunight.JPG",
       "PackagePath": "staticwebassets/assets/kullunight.JPG"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/ladakhmonistary.jpg",
+      "PackagePath": "staticwebassets/assets/ladakhmonistary.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/ladakhmountain.jpg",
+      "PackagePath": "staticwebassets/assets/ladakhmountain.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/ladkahmountain2.jpg",
+      "PackagePath": "staticwebassets/assets/ladkahmountain2.jpg"
     },
     {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/logo.heic",
@@ -89,8 +137,32 @@
       "PackagePath": "staticwebassets/assets/logo.png"
     },
     {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/manali02.jpg",
+      "PackagePath": "staticwebassets/assets/manali02.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/manali03.jpg",
+      "PackagePath": "staticwebassets/assets/manali03.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/manali04.jpg",
+      "PackagePath": "staticwebassets/assets/manali04.jpg"
+    },
+    {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/river01.PNG",
       "PackagePath": "staticwebassets/assets/river01.PNG"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/spiti04.jpg",
+      "PackagePath": "staticwebassets/assets/spiti04.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/spiti05.jpg",
+      "PackagePath": "staticwebassets/assets/spiti05.jpg"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/assets/spiti06.jpg",
+      "PackagePath": "staticwebassets/assets/spiti06.jpg"
     },
     {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/css/site.css",

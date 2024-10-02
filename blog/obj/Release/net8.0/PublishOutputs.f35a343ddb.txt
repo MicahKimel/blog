@@ -1,0 +1,7 @@
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/publish/blog
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/publish/appsettings.json
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/publish/blog.dll
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/publish/blog.deps.json
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/publish/blog.runtimeconfig.json
+/Users/micahkimel/Desktop/travelBlob/blog/bin/Release/net8.0/publish/blog.pdb
