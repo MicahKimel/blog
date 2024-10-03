@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5uh4rDNtkg2qmKmt8XT1AxYVFXA+p9JzxgtCO7HnI20=",
+  "Hash": "kz0BYWiFGlHGKzGPSIhmIqt9x91TwasYaghIuxMKlg8=",
   "Source": "blog",
   "BasePath": "_content/blog",
   "Mode": "Default",
@@ -832,25 +832,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
-    },
-    {
-      "Identity": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/favicon.ico",
-      "SourceId": "blog",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/",
-      "BasePath": "_content/blog",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
       "Identity": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/js/site.js",
@@ -2010,6 +1991,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/myicon.ico",
+      "SourceId": "blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/",
+      "BasePath": "_content/blog",
+      "RelativePath": "myicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/myicon.ico"
     }
   ]
 }

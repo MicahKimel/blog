@@ -169,10 +169,6 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
-    },
-    {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
@@ -415,6 +411,10 @@
     {
       "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/micahkimel/Desktop/travelBlob/blog/wwwroot/myicon.ico",
+      "PackagePath": "staticwebassets/myicon.ico"
     },
     {
       "Id": "obj/Release/net8.0/staticwebassets/msbuild.blog.Microsoft.AspNetCore.StaticWebAssets.props",
